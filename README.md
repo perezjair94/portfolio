@@ -5,7 +5,7 @@ Desarrollado en Next.js y desplegado en vercel, [demo](https://oquendo.vercel.ap
 ## Ejecutar en local
 
 ```bash
-  https://github.com/oquendojair10/portfolio.git
+  git clone https://github.com/oquendojair10/portfolio.git
   cd portfolio
   yarn 
   yarn dev
