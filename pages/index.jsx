@@ -226,7 +226,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="mt-6 font-light">
+        <div className="mt-6 font-light mb-8">
           <h2 className="text-2xl lg:text-3xl font-medium">Educacíon</h2>
           <span className="text-base lg:text-lg mt-4 block">
             <b className="font-semibold mr-1">Tecnológico San Agustín</b>
@@ -234,7 +234,7 @@ function Home() {
           </span>
           <i className="text-base lg:text-lg">Diseñador Gráfico, Jun 2019</i>
         </div>
-        <div className="my-14">
+        <div className="my-14 hidden">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
             <div>
               <div className="h-44 bg-gray-100 rounded-md" />
