@@ -207,7 +207,7 @@ function Home() {
               </a>
               <i>Abril, 2021</i>
               <p className="text-base lg:text-lg font-light">Plataforma de cursos financieros.</p>
-              <span className="text-base lg:text-lg block mt-4 font-light"><b className="font-semibold">Tecnologias:</b> Next.js, React.js, Bootstrap, Vercel, MongoDB</span>
+              <span className="text-base lg:text-lg block mt-4 font-light"><b className="font-semibold">Tecnologias:</b> Next.js, React.js, Bootstrap, express.js, MongoDB, Vercel</span>
             </div>
             <div className="py-8">
               <a 
@@ -222,7 +222,7 @@ function Home() {
               </a>
               <i>Junio, 2021</i>
               <p className="text-base lg:text-lg font-light">Sitio web sobre servicios relacionados con música.</p>
-              <span className="text-base lg:text-lg block mt-4 font-light"><b className="font-semibold">Tecnologias:</b> Next.js, React.js, Bootstrap, Vercel, MongoDB</span>
+              <span className="text-base lg:text-lg block mt-4 font-light"><b className="font-semibold">Tecnologias:</b> Next.js, React.js, Tailwindcss, Vercel</span>
             </div>
           </div>
         </div>
