@@ -46,9 +46,9 @@ function Home() {
             <a 
               href="/docs/CV%20-%20Jair%20Pérez.pdf" 
               className="bg-black rounded-md p-2 px-8 mt-5 inline-block"
-              download
+              target="_blank"
             >
-              <span className="text-white">Descargar CV</span>
+              <span className="text-white">Ver curriculum</span>
             </a>
           </div>
           <div className="mt-10 md:mt-0">
