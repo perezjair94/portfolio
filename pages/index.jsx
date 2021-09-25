@@ -325,7 +325,7 @@ function Home() {
           <div className="max-w-prose">
             <div className="border-b py-8">
               <a
-                href="https://bybmc.co"
+                href="https://www.figma.com/proto/DNea6tpkfsAk8ccCs6YzWR/sorfin?node-id=2%3A3"
                 target="_blank"
                 className="text-base lg:text-lg mr-1"
               >
