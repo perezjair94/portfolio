@@ -40,7 +40,7 @@ function Home() {
         <div className="grid md:grid-cols-2 gap-5 lg:gap-0">
           <div className="max-w-lg">
             <h2 className="text-2xl lg:text-3xl font-medium">
-              Desarrollador Forntend
+              Desarrollador Frontend
             </h2>
             <span className="text-lg font-medium">
               Javascript, React.js, Next.js
@@ -150,6 +150,47 @@ function Home() {
         </div>
         <div className="mt-10">
           <h2 className="text-2xl lg:text-3xl font-medium">Experiencia</h2>
+          <div className="mt-10 max-w-prose pb-6 border-b">
+            <a
+              href="https://www.draketech.ca/"
+              target="_blank"
+              className="text-base lg:text-lg mr-1"
+            >
+              <b className="font-semibold mr-1">DrakeTech</b>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6 inline-flex"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                />
+              </svg>
+              ,
+            </a>
+            <span className="text-base lg:text-lg block md:inline-block">
+              Frontend - <i>Septiembre, 2021 - Presente</i>
+            </span>
+            <span className="text-base lg:text-lg font-light block text-gray-600 my-2">
+              Ontario, Canadá
+            </span>
+            <p className="text-base lg:text-lg font-light">
+              Desarrollador Frontend, maquetador de aplicaciones web con Ant
+              Design y Bootstrap, integración con APIs e implementación con
+              React y Redux, apoyo en la gestión de proyectos y análisis de los
+              requisitos para aplicación de programas.
+            </p>
+            <span className="text-base lg:text-lg font-light mt-6 block">
+              <b className="font-semibold">Tecnologias:</b> React.js, Redux,js,
+              Javascript, JSON, JWT, Web API Ant Design, Bootstrap, Git, Git
+              flow
+            </span>
+          </div>
           <div className="mt-6 max-w-prose">
             <a
               href="https://startupslabagencia.co"
@@ -174,7 +215,7 @@ function Home() {
               ,
             </a>
             <span className="text-base lg:text-lg block md:inline-block">
-              Frontend - <i>Agosto, 2019-Presente</i>
+              Frontend - <i>Agosto, 2019 - Septiembre, 2021</i>
             </span>
             <p className="text-base lg:text-lg font-light">
               Desarrollador Frontend, maquetador de páginas y aplicaciones web e
