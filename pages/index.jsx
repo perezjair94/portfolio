@@ -35,7 +35,7 @@ function Home() {
       </div>
       <div className="max-w-screen-lg mx-auto px-8 md:px-10">
         <div className="grid md:grid-cols-2 gap-5 lg:gap-0">
-          <div className="max-w-lg">
+          <div className="max-w-lg order-2">
             <h2 className="text-2xl lg:text-3xl font-semibold">
               Front-end Developer
             </h2>
@@ -73,24 +73,22 @@ function Home() {
               </div>
             </a>
           </div>
-          <div>
-            <div className="relative h-40 w-40 lg:h-64 lg:w-64 ml-auto">
-              <Image
-                layout="fill"
-                src="/images/photo.jpg"
-                className="rounded-full"
-                objectFit="cover"
-                objectPosition="center"
-                quality={80}
-              />
-            </div>
+          <div className="relative h-40 w-40 lg:h-64 lg:w-64 md:ml-auto order-1 md:order-2">
+            <Image
+              layout="fill"
+              src="/images/photo.jpg"
+              className="rounded-full"
+              objectFit="cover"
+              objectPosition="center"
+              quality={80}
+            />
           </div>
         </div>
         <div>
           <div className="max-w-screen-xl mx-auto mt-14">
             <div>
               <h2 className="text-2xl lg:text-3xl font-semibold">Proyectos</h2>
-              <div className="grid grid-cols-2 gap-4 mt-10">
+              <div className="grid lg:grid-cols-2 lg:gap-4 mt-10">
                 <HeroCard
                   title="Elmatch Community"
                   link="https://elmatchtv.com"
