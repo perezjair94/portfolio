@@ -1,15 +1,15 @@
-import Head from 'next/head'
-import { useRouter } from 'next/router'
+import Head from "next/head";
+import { useRouter } from "next/router";
 
 export default function Layout(props) {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    title: 'Jair Oquendo',
-    description: `Portfolio Jair Oquendo`,
-    image: '#',
-    type: 'website',
-    ...customMeta
+    title: "Jair Pérez",
+    description: `Portfolio Jair Pérez`,
+    image: "#",
+    type: "website",
+    ...customMeta,
   };
   return (
     <div>
@@ -32,5 +32,5 @@ export default function Layout(props) {
       </Head>
       {children}
     </div>
-  )
+  );
 }
