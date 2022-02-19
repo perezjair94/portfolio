@@ -8,16 +8,13 @@ import HeroCard from "@/components/HeroCard";
 function Home() {
   return (
     <Layout>
-      <div className="max-w-screen-xl mx-auto px-8 md:px-10">
+      <div className="max-w-screen-lg mx-auto px-8 md:px-10">
         <div className="py-8">
           <div className="flex items-center justify-between">
             <span className="font-semibold text-lg md:text-2xl">
-              Jair Oquendo
+              Jair Pérez
             </span>
             <div className="flex items-center">
-              <span className="mx-4 font-medium hidden md:inline-block">
-                oquendojair10@gmail.com
-              </span>
               <div className="flex space-x-3 items-center">
                 <SocialLink
                   link="https://instagram.com/oquendojair10"
@@ -36,14 +33,14 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="max-w-screen-xl mx-auto px-8 md:px-10">
+      <div className="max-w-screen-lg mx-auto px-8 md:px-10">
         <div className="grid md:grid-cols-2 gap-5 lg:gap-0">
           <div className="max-w-lg">
-            <h2 className="text-2xl lg:text-3xl font-medium">
-              Desarrollador Frontend
+            <h2 className="text-2xl lg:text-3xl font-semibold">
+              Front-end Developer
             </h2>
             <span className="text-lg font-medium">
-              Javascript, React.js, Next.js
+              Javascript, React.js, Next.js, Web3.js
             </span>
             <p className="text-base lg:text-lg mt-4 font-light">
               Con +2 años de experiencia elaborando aplicaciones Frontend
@@ -52,71 +49,67 @@ function Home() {
             </p>
             <a
               href="/docs/CV%20-%20Jair%20Pérez.pdf"
-              className="bg-black rounded-md p-2 px-8 mt-5 inline-block"
+              className="mt-5 font-semibold inline-block md:text-lg"
               target="_blank"
             >
-              <span className="text-white">Ver curriculum</span>
+              <div className="flex items-center space-x-2 group">
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500 group-hover:text-black">
+                  Ver curriculum
+                </span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6 text-pink-500 group-hover:text-black"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  />
+                </svg>
+              </div>
             </a>
           </div>
-          <div className="mt-10 md:mt-0">
-            <div className="max-w-lg ml-auto">
-              <HeroCard title="Elmatch" link="https://elmatchtv.com">
-                Sitio web y blog de la comunidad de fútbol.
-              </HeroCard>
-              <HeroCard title="Sorfin" link="https://sorfin.vercel.app">
-                Marketplace de sistemas.
-              </HeroCard>
-              <Link href="/#projects">
-                <a>
-                  <div className="flex space-x-2 mt-4">
-                    <span className="font-medium">Proyectos</span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-6 w-6"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M17 8l4 4m0 0l-4 4m4-4H3"
-                      />
-                    </svg>
-                  </div>
-                </a>
-              </Link>
+          <div>
+            <div className="relative h-40 w-40 lg:h-64 lg:w-64 ml-auto">
+              <Image
+                layout="fill"
+                src="/images/photo.jpg"
+                className="rounded-full"
+                objectFit="cover"
+                objectPosition="center"
+                quality={80}
+              />
             </div>
           </div>
         </div>
-        <div className="max-w-screen-xl mx-auto mt-14">
-          <div className="bg-gray-50 rounded-lg">
-            <div className="p-8 md:p-14 lg:px-16 flex flex-col md:flex-row">
-              <div className="md:hidden lg:inline-block">
-                <div className="relative h-40 w-40 lg:h-64 lg:w-64">
-                  <Image
-                    layout="fill"
-                    src="/images/photo.jpg"
-                    className="rounded-full"
-                    objectFit="cover"
-                    objectPosition="center"
-                    quality={80}
-                  />
-                </div>
+        <div>
+          <div className="max-w-screen-xl mx-auto mt-14">
+            <div>
+              <h2 className="text-2xl lg:text-3xl font-semibold">Proyectos</h2>
+              <div className="grid grid-cols-2 gap-4 mt-10">
+                <HeroCard
+                  title="Elmatch Community"
+                  link="https://elmatchtv.com"
+                >
+                  Comunidad de fútbol.
+                </HeroCard>
+                <HeroCard title="Sorfin" link="https://sorfin.vercel.app">
+                  Marketplace de sistemas (prototipo).
+                </HeroCard>
               </div>
-              <div className="mt-4 lg:p-8 lg:px-14">
-                <h2 className="text-xl md:text-2xl font-medium">Sobre mí</h2>
-                <p className="text-base lg:text-lg font-light mt-3">
-                  Tengo 27 años, vivo en Monteria - Cordoba, soy fanatico del
-                  fútbol y fan del ChelseaFC, co-creador de la cumnidad de
-                  fútbol Elmatch, durante varios años he aprendido mucho sobre
-                  desarrollo web y he tenido experiencia elaborando E-Commerce e
-                  integración con pasarelas de pago, blogs, Landing page, por
-                  último he desplegado aplicaciones en las plataformas Vercel,
-                  Heroku y AWS
-                </p>
-              </div>
+              <Link href="/#projects">
+                <a>
+                  <div className="flex space-x-2 mt-4">
+                    <span className="font-medium font-semibold md:text-lg">
+                      Ver proyectos
+                    </span>
+                  </div>
+                </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -126,14 +119,15 @@ function Home() {
             <h3 className="text-xl lg:text-2xl font-medium">
               Frameworks - Tools
             </h3>
-            <p className="mt-3 text-base lg:text-lg font-light">
+            <p className="mt-3 text-base lg:text-lg font-light max-w-prose">
               <span className="block">
                 <b className="font-semibold">Avanzado:</b> React, Next.js,
                 Vercel, TailwindCSS, Bootstrap, JSON, Web API.
               </span>
               <span className="block">
-                <b className="font-semibold">Intermedio:</b> Node.js. Git,
-                Gitflow, MongoDB, express.js, AWS, Redux.js, JWT, SASS.
+                <b className="font-semibold">Intermedio:</b> Node.js, Git,
+                Gitflow, MongoDB, express.js, AWS, Redux.js, JWT, SASS, Web3.js,
+                Ethers.js, Solidity.
               </span>
               <span className="block">
                 <b className="font-semibold">Básico:</b> Angular 2+, GraphQL,
@@ -144,13 +138,58 @@ function Home() {
           <div className="mt-4">
             <h3 className="text-xl lg:text-2xl font-medium">Lenguajes</h3>
             <p className="mt-3 text-base lg:text-lg font-light">
-              Javascript, CSS, SASS, HTML.
+              Javascript, Solidity, CSS, SASS, HTML.
             </p>
           </div>
         </div>
         <div className="mt-10">
           <h2 className="text-2xl lg:text-3xl font-medium">Experiencia</h2>
-          <div className="mt-10 max-w-prose pb-6 border-b">
+          <div className="mt-10 max-w-prose">
+            <a
+              href="https://www.bancacrypto.money/"
+              target="_blank"
+              className="text-base lg:text-lg mr-1"
+            >
+              <b className="font-semibold mr-1">BancaCrypto</b>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6 inline-flex"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                />
+              </svg>
+              ,
+            </a>
+            <span className="text-base lg:text-lg block md:inline-block">
+              CTO - <i>Abril, 2021 - Presente</i>
+            </span>
+            <p className="text-base lg:text-lg font-light">
+              Desarrollador Blockchain Front-end, Apoyo en la gestión de
+              proyectos y análisis de los requisitos para aplicaciónes Web 3 y
+              Blockchain, integración e implementación con web3.js, ethers.js,
+              MetaMask, Samart Contract o Solidity.
+            </p>
+            <span className="text-base lg:text-lg font-light mt-6 block">
+              <b className="font-semibold">Tecnologias:</b> React.js, Next.js,
+              TailwindCSS, Vercel, Solidity, Ethers.js Web3.js, Remix, Smart
+              Contracts
+            </span>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-10 pb-6 border-b">
+            <ProjectCard
+              title="BancaCrypto"
+              link="https://bancacrypto.money"
+              image="bancacrypto.png"
+            />
+          </div>
+          <div className="mt-6 max-w-prose pb-6 border-b">
             <a
               href="https://www.draketech.ca/"
               target="_blank"
@@ -186,7 +225,7 @@ function Home() {
               requisitos para aplicación de programas.
             </p>
             <span className="text-base lg:text-lg font-light mt-6 block">
-              <b className="font-semibold">Tecnologias:</b> React.js, Redux,js,
+              <b className="font-semibold">Tecnologias:</b> React.js, Redux.js,
               Javascript, JSON, JWT, Web API Ant Design, Bootstrap, Git, Git
               flow
             </span>
@@ -245,50 +284,10 @@ function Home() {
               image="casa10.png"
             />
             <ProjectCard
-              title="SORS"
-              link="https://sors.com.co"
-              image="sors.png"
+              title="Neutro"
+              link="https://wearered.co/neutro"
+              image="neutro.jpg"
             />
-            <div className="bg-gray-100 text-white rounded-md">
-              <div>
-                <a href="https://wearered.co/neutro" target="_blank">
-                  <div className="relative">
-                    <div className="absolute h-full w-full z-40">
-                      <div
-                        style={{ backdropFilter: "blur(5px)" }}
-                        className="h-full rounded-md bg-black bg-opacity-20 opacity-0 hover:opacity-100"
-                      >
-                        <div className="flex items-center justify-center h-full">
-                          <span className="font-semibold text-xl">Neutro</span>
-                          <svg
-                            className="h-5 mx-2"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth={2}
-                              d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                            />
-                          </svg>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      className="relative w-full h-60 rounded-md opacity-95"
-                      style={{
-                        background: "url(/images/experience/neutro.jpg)",
-                        backgroundSize: "cover",
-                        backgroundPosition: "center",
-                      }}
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
           </div>
         </div>
         <div id="projects" />
