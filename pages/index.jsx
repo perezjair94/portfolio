@@ -17,11 +17,11 @@ function Home() {
             <div className="flex items-center">
               <div className="flex space-x-3 items-center">
                 <SocialLink
-                  link="https://instagram.com/oquendojair10"
+                  link="https://instagram.com/perezjair10"
                   source="/icons/instagram.svg"
                 />
                 <SocialLink
-                  link="https://github.com/oquendojair10"
+                  link="https://github.com/jairperezdev"
                   source="/icons/github.svg"
                 />
                 <SocialLink
@@ -84,7 +84,7 @@ function Home() {
             />
           </div>
         </div>
-        <div>
+        {/* <div>
           <div className="max-w-screen-xl mx-auto mt-14">
             <div>
               <h2 className="text-2xl lg:text-3xl font-semibold">Proyectos</h2>
@@ -102,7 +102,7 @@ function Home() {
               <Link href="/#projects">
                 <a>
                   <div className="flex space-x-2 mt-4">
-                    <span className="font-medium font-semibold md:text-lg">
+                    <span className="font-semibold md:text-lg">
                       Ver proyectos
                     </span>
                   </div>
@@ -110,7 +110,7 @@ function Home() {
               </Link>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="mt-14">
           <h2 className="text-2xl lg:text-3xl font-medium">Habilidades</h2>
           <div className="mt-4">
@@ -185,6 +185,11 @@ function Home() {
               title="BancaCrypto"
               link="https://bancacrypto.money"
               image="bancacrypto.png"
+            />
+            <ProjectCard
+              title="MetaverseProducer"
+              link="https://metaverse-producer.com/"
+              image="metaverse.png"
             />
           </div>
           <div className="mt-6 max-w-prose pb-6 border-b">
@@ -324,38 +329,6 @@ function Home() {
                 Bootstrap, express.js, MongoDB, Vercel
               </span>
             </div>
-            <div className="py-8">
-              <a
-                href="https://musicallbank.com"
-                target="_blank"
-                className="text-base lg:text-lg mr-1"
-              >
-                <b className="font-semibold mr-1">Musicallbank</b>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 inline-flex"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                  />
-                </svg>{" "}
-                -
-              </a>
-              <i>Junio, 2021</i>
-              <p className="text-base lg:text-lg font-light">
-                Sitio web sobre servicios relacionados con música.
-              </p>
-              <span className="text-base lg:text-lg block mt-4 font-light">
-                <b className="font-semibold">Tecnologias:</b> Next.js, React.js,
-                Tailwindcss, Vercel
-              </span>
-            </div>
           </div>
         </div>
         <div className="mt-10">
@@ -363,11 +336,11 @@ function Home() {
           <div className="max-w-prose">
             <div className="border-b py-8">
               <a
-                href="https://www.figma.com/proto/DNea6tpkfsAk8ccCs6YzWR/sorfin?node-id=2%3A3"
+                href="https://www.figma.com/proto/yKNob6ZJhx6KShtbEtRUly/LandingNFT?node-id=1%3A3&scaling=scale-down-width&page-id=0%3A1"
                 target="_blank"
                 className="text-base lg:text-lg mr-1"
               >
-                <b className="font-semibold mr-1">Sorfin</b>
+                <b className="font-semibold mr-1">Landing NFT</b>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-6 w-6 inline-flex"
@@ -386,7 +359,7 @@ function Home() {
               </a>
               <i>Septiembre, 2021</i>
               <p className="text-base lg:text-lg font-light">
-                Marketplace de sistemas para negocios.
+                Landing para colección de NFTs.
               </p>
               <span className="text-base lg:text-lg block mt-4 font-light">
                 <b className="font-semibold">Tecnologias:</b> Figma
