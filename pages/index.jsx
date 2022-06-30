@@ -17,15 +17,15 @@ function Home() {
             <div className="flex items-center">
               <div className="flex space-x-3 items-center">
                 <SocialLink
-                  link="https://instagram.com/perezjair10"
+                  link="https://instagram.com/perezjair94"
                   source="/icons/instagram.svg"
                 />
                 <SocialLink
-                  link="https://github.com/jairperezdev"
+                  link="https://github.com/perezjair94"
                   source="/icons/github.svg"
                 />
                 <SocialLink
-                  link="https://www.linkedin.com/in/oquendojair10/"
+                  link="https://www.linkedin.com/in/perezjair94/"
                   source="/icons/linkedin.svg"
                 />
               </div>
