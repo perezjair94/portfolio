@@ -84,33 +84,6 @@ function Home() {
             />
           </div>
         </div>
-        {/* <div>
-          <div className="max-w-screen-xl mx-auto mt-14">
-            <div>
-              <h2 className="text-2xl lg:text-3xl font-semibold">Proyectos</h2>
-              <div className="grid lg:grid-cols-2 lg:gap-4 mt-10">
-                <HeroCard
-                  title="Elmatch Community"
-                  link="https://elmatchtv.com"
-                >
-                  Comunidad de fútbol.
-                </HeroCard>
-                <HeroCard title="Sorfin" link="https://sorfin.vercel.app">
-                  Marketplace de sistemas (prototipo).
-                </HeroCard>
-              </div>
-              <Link href="/#projects">
-                <a>
-                  <div className="flex space-x-2 mt-4">
-                    <span className="font-semibold md:text-lg">
-                      Ver proyectos
-                    </span>
-                  </div>
-                </a>
-              </Link>
-            </div>
-          </div>
-        </div> */}
         <div className="mt-14">
           <h2 className="text-2xl lg:text-3xl font-medium">Habilidades</h2>
           <div className="mt-4">
@@ -187,9 +160,9 @@ function Home() {
               image="bancacrypto.png"
             />
             <ProjectCard
-              title="MetaverseProducer"
-              link="https://metaverse-producer.com/"
-              image="metaverse.png"
+              title="CapitalInvestment"
+              link="https://capitalinvestmenttm.com/"
+              image="capitalinvestment.png"
             />
           </div>
           <div className="mt-6 max-w-prose pb-6 border-b">
@@ -216,7 +189,7 @@ function Home() {
               ,
             </a>
             <span className="text-base lg:text-lg block md:inline-block">
-              Frontend - <i>Septiembre, 2021 - Presente</i>
+              Frontend - <i>Septiembre, 2021 - October, 2022</i>
             </span>
             <span className="text-base lg:text-lg font-light block text-gray-600 my-2">
               Ontario, Canadá
@@ -286,11 +259,11 @@ function Home() {
               link="https://micasa10.co"
               image="casa10.png"
             />
-            <ProjectCard
+            {/* <ProjectCard
               title="Neutro"
               link="https://wearered.co/neutro"
               image="neutro.jpg"
-            />
+            /> */}
           </div>
         </div>
         <div id="projects" />
