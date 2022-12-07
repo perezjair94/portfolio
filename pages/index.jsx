@@ -175,7 +175,7 @@ function Home() {
                 </svg>{" "}
                 -
               </a>
-              <i>Diciembre, 2022</i>
+              <i>Noviembre, 2022</i>
               <p className="text-base lg:text-lg font-light">
                 E-commerce de prueba para eceptar pagos con criptomonedas,
                 integrando el procesador de pagos Payotshi.
