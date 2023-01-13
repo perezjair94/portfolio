@@ -119,8 +119,73 @@ function Home() {
         <div id="projects" />
         <div className="mt-10">
           <h2 className="text-2xl lg:text-3xl font-medium">Proyectos</h2>
+          <div className="border-b py-8">
+            <a
+              href="https://superhost.vercel.app/"
+              target="_blank"
+              className="text-base lg:text-lg mr-1"
+            >
+              <b className="font-semibold mr-1">Superhost</b>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6 inline-flex"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                />
+              </svg>{" "}
+              -
+            </a>
+            <i>Diciembre, 2022</i>
+            <p className="text-base lg:text-lg font-light">
+              Plataforma de cursos sobre realstate.
+            </p>
+            <span className="text-base lg:text-lg block mt-4 font-light">
+              <b className="font-semibold">Tecnologias:</b> Next.js, React.js,
+              Tailwind CSS, express.js, MongoDB, Vercel, Paytoshi
+            </span>
+          </div>
+          <div className="border-b py-8">
+            <a
+              href="https://paytoshi-commerce.vercel.app/"
+              target="_blank"
+              className="text-base lg:text-lg mr-1"
+            >
+              <b className="font-semibold mr-1">Paytoshi Commerce</b>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6 inline-flex"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                />
+              </svg>{" "}
+              -
+            </a>
+            <i>Noviembre, 2022</i>
+            <p className="text-base lg:text-lg font-light">
+              E-commerce de prueba para aceptar pagos con criptomonedas,
+              integrando el procesador de pagos Payotshi.
+            </p>
+            <span className="text-base lg:text-lg block mt-4 font-light">
+              <b className="font-semibold">Tecnologias:</b> Next.js, React.js,
+              Tailwind CSS, express.js, MongoDB, Vercel, Paytoshi
+            </span>
+          </div>
           <div className="max-w-prose">
-            <div className="border-b py-8">
+            <div className="py-8">
               <a
                 href="https://bybmc.co"
                 target="_blank"
@@ -150,39 +215,6 @@ function Home() {
               <span className="text-base lg:text-lg block mt-4 font-light">
                 <b className="font-semibold">Tecnologias:</b> Next.js, React.js,
                 Bootstrap, express.js, MongoDB, Vercel
-              </span>
-            </div>
-            <div className="py-8">
-              <a
-                href="https://paytoshi-commerce.vercel.app/"
-                target="_blank"
-                className="text-base lg:text-lg mr-1"
-              >
-                <b className="font-semibold mr-1">Paytoshi Commerce</b>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 inline-flex"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                  />
-                </svg>{" "}
-                -
-              </a>
-              <i>Noviembre, 2022</i>
-              <p className="text-base lg:text-lg font-light">
-                E-commerce de prueba para eceptar pagos con criptomonedas,
-                integrando el procesador de pagos Payotshi.
-              </p>
-              <span className="text-base lg:text-lg block mt-4 font-light">
-                <b className="font-semibold">Tecnologias:</b> Next.js, React.js,
-                Tailwind CSS, express.js, MongoDB, Vercel, Paytoshi
               </span>
             </div>
           </div>
@@ -280,13 +312,13 @@ function Home() {
               ,
             </a>
             <span className="text-base lg:text-lg block md:inline-block">
-              CTO - <i>Abril, 2021 - Presente</i>
+              Freelancer - <i>Abril, 2021 - Presente</i>
             </span>
             <p className="text-base lg:text-lg font-light">
               Desarrollador Front-end Blockchain, Apoyo en la gestión de
               proyectos y análisis de los requisitos para aplicaciónes Web 3 y
               Blockchain, integración e implementación con web3.js, ethers.js,
-              Binance API, MetaMask, Samart Contract o Solidity.
+              Binance API, MetaMask, Smart Contract o Solidity.
             </p>
             <span className="text-base lg:text-lg font-light mt-6 block">
               <b className="font-semibold">Tecnologias:</b> React.js, Next.js,
