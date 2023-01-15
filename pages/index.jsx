@@ -116,176 +116,6 @@ function Home() {
             </p>
           </div>
         </div>
-        <div id="projects" />
-        <div className="mt-10">
-          <h2 className="text-2xl lg:text-3xl font-medium">Proyectos</h2>
-          <div className="border-b py-8">
-            <a
-              href="https://superhost.vercel.app/"
-              target="_blank"
-              className="text-base lg:text-lg mr-1"
-            >
-              <b className="font-semibold mr-1">Superhost</b>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 inline-flex"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                />
-              </svg>{" "}
-              -
-            </a>
-            <i>Diciembre, 2022</i>
-            <p className="text-base lg:text-lg font-light">
-              Plataforma de cursos sobre realstate.
-            </p>
-            <span className="text-base lg:text-lg block mt-4 font-light">
-              <b className="font-semibold">Tecnologias:</b> Next.js, React.js,
-              Tailwind CSS, express.js, MongoDB, Vercel, Paytoshi
-            </span>
-          </div>
-          <div className="border-b py-8">
-            <a
-              href="https://paytoshi-commerce.vercel.app/"
-              target="_blank"
-              className="text-base lg:text-lg mr-1"
-            >
-              <b className="font-semibold mr-1">Paytoshi Commerce</b>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 inline-flex"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                />
-              </svg>{" "}
-              -
-            </a>
-            <i>Noviembre, 2022</i>
-            <p className="text-base lg:text-lg font-light">
-              E-commerce de prueba para aceptar pagos con criptomonedas,
-              integrando el procesador de pagos Payotshi.
-            </p>
-            <span className="text-base lg:text-lg block mt-4 font-light">
-              <b className="font-semibold">Tecnologias:</b> Next.js, React.js,
-              Tailwind CSS, express.js, MongoDB, Vercel, Paytoshi
-            </span>
-          </div>
-          <div className="max-w-prose">
-            <div className="py-8">
-              <a
-                href="https://bybmc.co"
-                target="_blank"
-                className="text-base lg:text-lg mr-1"
-              >
-                <b className="font-semibold mr-1">BMC Quant</b>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 inline-flex"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                  />
-                </svg>{" "}
-                -
-              </a>
-              <i>Abril, 2021</i>
-              <p className="text-base lg:text-lg font-light">
-                Plataforma de cursos financieros.
-              </p>
-              <span className="text-base lg:text-lg block mt-4 font-light">
-                <b className="font-semibold">Tecnologias:</b> Next.js, React.js,
-                Bootstrap, express.js, MongoDB, Vercel
-              </span>
-            </div>
-          </div>
-        </div>
-        <div className="mt-10">
-          <h2 className="text-2xl lg:text-3xl font-medium">Prototipos</h2>
-          <div className="max-w-prose">
-            <div className="border-b py-8">
-              <a
-                href="https://www.figma.com/proto/yKNob6ZJhx6KShtbEtRUly/LandingNFT?node-id=1%3A3&scaling=scale-down-width&page-id=0%3A1"
-                target="_blank"
-                className="text-base lg:text-lg mr-1"
-              >
-                <b className="font-semibold mr-1">Landing NFT</b>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 inline-flex"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                  />
-                </svg>{" "}
-                -
-              </a>
-              <i>Septiembre, 2021</i>
-              <p className="text-base lg:text-lg font-light">
-                Landing para colección de NFTs.
-              </p>
-              <span className="text-base lg:text-lg block mt-4 font-light">
-                <b className="font-semibold">Tecnologias:</b> Figma
-              </span>
-            </div>
-            <div className="py-8">
-              <a
-                href="https://www.figma.com/proto/BzdYAC5JEkHiCR8R9nCy5a/portfolio?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1"
-                target="_blank"
-                className="text-base lg:text-lg mr-1"
-              >
-                <b className="font-semibold mr-1">Portafolio</b>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 inline-flex"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                  />
-                </svg>{" "}
-                -
-              </a>
-              <i>Agosto, 2021</i>
-              <p className="text-base lg:text-lg font-light">
-                Portafolio personal.
-              </p>
-              <span className="text-base lg:text-lg block mt-4 font-light">
-                <b className="font-semibold">Tecnologias:</b> Figma
-              </span>
-            </div>
-          </div>
-        </div>
         <div className="mt-10">
           <h2 className="text-2xl lg:text-3xl font-medium">Experiencia</h2>
           <div className="mt-10 max-w-prose">
@@ -437,6 +267,176 @@ function Home() {
               link="https://wearered.co/neutro"
               image="neutro.jpg"
             /> */}
+          </div>
+        </div>
+        <div id="projects" />
+        <div className="mt-20">
+          <h2 className="text-2xl lg:text-3xl font-medium">Proyectos</h2>
+          <div className="border-b py-8 max-w-prose">
+            <a
+              href="https://superhost.vercel.app/"
+              target="_blank"
+              className="text-base lg:text-lg mr-1"
+            >
+              <b className="font-semibold mr-1">Superhost</b>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6 inline-flex"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                />
+              </svg>{" "}
+              -
+            </a>
+            <i>Diciembre, 2022</i>
+            <p className="text-base lg:text-lg font-light">
+              Plataforma de cursos sobre realstate.
+            </p>
+            <span className="text-base lg:text-lg block mt-4 font-light">
+              <b className="font-semibold">Tecnologias:</b> Next.js, React.js,
+              Tailwind CSS, express.js, MongoDB, Vercel, Paytoshi
+            </span>
+          </div>
+          <div className="border-b py-8 max-w-prose">
+            <a
+              href="https://paytoshi-commerce.vercel.app/"
+              target="_blank"
+              className="text-base lg:text-lg mr-1"
+            >
+              <b className="font-semibold mr-1">Paytoshi Commerce</b>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6 inline-flex"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                />
+              </svg>{" "}
+              -
+            </a>
+            <i>Noviembre, 2022</i>
+            <p className="text-base lg:text-lg font-light">
+              E-commerce de prueba para aceptar pagos con criptomonedas,
+              integrando el procesador de pagos Payotshi.
+            </p>
+            <span className="text-base lg:text-lg block mt-4 font-light">
+              <b className="font-semibold">Tecnologias:</b> Next.js, React.js,
+              Tailwind CSS, express.js, MongoDB, Vercel, Paytoshi
+            </span>
+          </div>
+          <div className="max-w-prose">
+            <div className="py-8">
+              <a
+                href="https://bybmc.co"
+                target="_blank"
+                className="text-base lg:text-lg mr-1"
+              >
+                <b className="font-semibold mr-1">BMC Quant</b>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6 inline-flex"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                  />
+                </svg>{" "}
+                -
+              </a>
+              <i>Abril, 2021</i>
+              <p className="text-base lg:text-lg font-light">
+                Plataforma de cursos financieros.
+              </p>
+              <span className="text-base lg:text-lg block mt-4 font-light">
+                <b className="font-semibold">Tecnologias:</b> Next.js, React.js,
+                Bootstrap, express.js, MongoDB, Vercel
+              </span>
+            </div>
+          </div>
+        </div>
+        <div className="mt-10">
+          <h2 className="text-2xl lg:text-3xl font-medium">Prototipos</h2>
+          <div className="max-w-prose">
+            <div className="border-b py-8">
+              <a
+                href="https://www.figma.com/proto/yKNob6ZJhx6KShtbEtRUly/LandingNFT?node-id=1%3A3&scaling=scale-down-width&page-id=0%3A1"
+                target="_blank"
+                className="text-base lg:text-lg mr-1"
+              >
+                <b className="font-semibold mr-1">Landing NFT</b>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6 inline-flex"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                  />
+                </svg>{" "}
+                -
+              </a>
+              <i>Septiembre, 2021</i>
+              <p className="text-base lg:text-lg font-light">
+                Landing para colección de NFTs.
+              </p>
+              <span className="text-base lg:text-lg block mt-4 font-light">
+                <b className="font-semibold">Tecnologias:</b> Figma
+              </span>
+            </div>
+            <div className="py-8">
+              <a
+                href="https://www.figma.com/proto/BzdYAC5JEkHiCR8R9nCy5a/portfolio?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1"
+                target="_blank"
+                className="text-base lg:text-lg mr-1"
+              >
+                <b className="font-semibold mr-1">Portafolio</b>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6 inline-flex"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                  />
+                </svg>{" "}
+                -
+              </a>
+              <i>Agosto, 2021</i>
+              <p className="text-base lg:text-lg font-light">
+                Portafolio personal.
+              </p>
+              <span className="text-base lg:text-lg block mt-4 font-light">
+                <b className="font-semibold">Tecnologias:</b> Figma
+              </span>
+            </div>
           </div>
         </div>
         <div className="mt-10 font-light mb-8">
