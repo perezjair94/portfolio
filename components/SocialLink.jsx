@@ -1,15 +1,11 @@
-import Image from 'next/image'
+import Image from "next/image";
 
-export default function SocialLink({ link, source }) {
+export default function SocialLink({ link, source, size = 30 }) {
   return (
-    <div>
+    <div className="flex items-center">
       <a href={link} target="_blank">
-        <Image 
-          src={source} 
-          height={30}
-          width={30}
-        />
+        <Image src={source} height={size} width={size} />
       </a>
     </div>
-  )
+  );
 }
