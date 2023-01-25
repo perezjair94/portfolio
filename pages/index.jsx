@@ -1,9 +1,8 @@
 import Image from "next/image";
-import Link from "next/link";
 import Layout from "@/components/Layout";
 import SocialLink from "@/components/SocialLink";
 import ProjectCard from "@/components/ProjectCard";
-import HeroCard from "@/components/HeroCard";
+import TechnicalTestCard from "@/components/TechincalTestCard";
 
 function Home() {
   return (
@@ -369,6 +368,298 @@ function Home() {
                 <b className="font-semibold">Tecnologias:</b> Next.js, React.js,
                 Bootstrap, express.js, MongoDB, Vercel
               </span>
+            </div>
+          </div>
+        </div>
+        <div className="mt-20">
+          <h2 className="text-2xl lg:text-3xl font-medium">Pruebas técnicas</h2>
+          <div className="py-8">
+            <div className="max-w-prose">
+              <div className="flex items-center gap-x-2">
+                <div className="flex items-center">
+                  <a
+                    href="https://monoma-test.vercel.app/"
+                    className="text-base lg:text-lg mr-1"
+                    target="_blank"
+                  >
+                    <b className="font-semibold mr-1">
+                      Pkemon Dashboard (Monoma)
+                    </b>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-6 w-6 inline-flex"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    href="https://github.com/perezjair94/monoma-test"
+                    target="_blank"
+                  >
+                    <img src="/icons/github.svg" className="h-5" />
+                  </a>
+                </div>
+                <span> - </span>
+                <i>Enero, 2023</i>
+              </div>
+              <p className="text-base lg:text-lg font-light">
+                Dashboard con lista de Pokemons y pagina de iniciar sesión.
+              </p>
+              <span className="text-base lg:text-lg block mt-4 font-light">
+                <b className="font-semibold">Tecnologias:</b> Next.js, React.js,
+                Typescript, Tailwind CSS, Twin.macro
+              </span>
+            </div>
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-10">
+              <TechnicalTestCard
+                title="Monoma"
+                link="https://monoma-test.vercel.app/"
+                image="/monoma/1.png"
+              />
+              <TechnicalTestCard
+                title="Monoma"
+                link="https://monoma-test.vercel.app/"
+                image="/monoma/2.png"
+              />
+            </div>
+          </div>
+          <div className="py-8">
+            <div className="max-w-prose">
+              <div className="flex items-center gap-x-2">
+                <div className="flex items-center">
+                  <a
+                    href="https://monoma-test.vercel.app/"
+                    className="text-base lg:text-lg mr-1"
+                    target="_blank"
+                  >
+                    <b className="font-semibold mr-1">
+                      Landing Recetas (Aranda)
+                    </b>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-6 w-6 inline-flex"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    href="https://github.com/perezjair94/aranda"
+                    target="_blank"
+                  >
+                    <img src="/icons/github.svg" className="h-5" />
+                  </a>
+                </div>
+                <span> - </span>
+                <i>Noviembre, 2022</i>
+              </div>
+              <p className="text-base lg:text-lg font-light">
+                Landing page sobre recetas.
+              </p>
+              <span className="text-base lg:text-lg block mt-4 font-light">
+                <b className="font-semibold">Tecnologias:</b> React.js,
+                Typescript, SASS
+              </span>
+            </div>
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-10">
+              <TechnicalTestCard
+                title="Aranda"
+                link="https://aranda.vercel.app/"
+                image="/aranda/1.png"
+              />
+              <TechnicalTestCard
+                title="Aranda"
+                link="https://aranda.vercel.app/"
+                image="/aranda/2.png"
+              />
+            </div>
+          </div>
+          <div className="py-8">
+            <div className="max-w-prose">
+              <div className="flex items-center gap-x-2">
+                <div className="flex items-center">
+                  <a
+                    href="https://shop-example-two.vercel.app/"
+                    className="text-base lg:text-lg mr-1"
+                    target="_blank"
+                  >
+                    <b className="font-semibold mr-1">Shoes Shop (DrakeTech)</b>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-6 w-6 inline-flex"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    href="https://github.com/perezjair94/e-commerce-wtih-semantic-ui-react"
+                    target="_blank"
+                  >
+                    <img src="/icons/github.svg" className="h-5" />
+                  </a>
+                </div>
+                <span> - </span>
+                <i>Septiembre, 2021</i>
+              </div>
+              <p className="text-base lg:text-lg font-light">
+                Landing page sobre recetas.
+              </p>
+              <span className="text-base lg:text-lg block mt-4 font-light">
+                <b className="font-semibold">Tecnologias:</b> React.js, CSS,
+                Semantic UI, SWR
+              </span>
+            </div>
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-10">
+              <TechnicalTestCard
+                title="Shoes Shop"
+                link="https://shop-example-two.vercel.app/"
+                image="/draketech/1.png"
+              />
+              <TechnicalTestCard
+                title="Shoes Shop"
+                link="https://shop-example-two.vercel.app/"
+                image="/draketech/2.png"
+              />
+            </div>
+          </div>
+          <div className="py-8">
+            <div className="max-w-prose">
+              <div className="flex items-center gap-x-2">
+                <div className="flex items-center">
+                  <a
+                    href="https://shop-example-two.vercel.app/"
+                    className="text-base lg:text-lg mr-1"
+                    target="_blank"
+                  >
+                    <b className="font-semibold mr-1">Dashboard (Bold)</b>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-6 w-6 inline-flex"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    href="https://github.com/perezjair94/e-commerce-wtih-semantic-ui-react"
+                    target="_blank"
+                  >
+                    <img src="/icons/github.svg" className="h-5" />
+                  </a>
+                </div>
+                <span> - </span>
+                <i>Mayo, 2021</i>
+              </div>
+              <p className="text-base lg:text-lg font-light">
+                Dashboard sobre registro de ventas con opciones de filtro.
+              </p>
+              <span className="text-base lg:text-lg block mt-4 font-light">
+                <b className="font-semibold">Tecnologias:</b> React.js, Next.js,
+                Tailwind CSS
+              </span>
+            </div>
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-10">
+              <TechnicalTestCard
+                title="Dashboard"
+                link="https://test-bold.vercel.app/"
+                image="/bold/1.png"
+              />
+              <TechnicalTestCard
+                title="Dashboard"
+                link="https://test-bold.vercel.app/"
+                image="/bold/2.png"
+              />
+            </div>
+          </div>
+          <div className="py-8">
+            <div className="max-w-prose">
+              <div className="flex items-center gap-x-2">
+                <div className="flex items-center">
+                  <a
+                    href="https://shop-example-two.vercel.app/"
+                    className="text-base lg:text-lg mr-1"
+                    target="_blank"
+                  >
+                    <b className="font-semibold mr-1">Winki (Starupslab)</b>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-6 w-6 inline-flex"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    href="https://github.com/perezjair94/e-commerce-wtih-semantic-ui-react"
+                    target="_blank"
+                  >
+                    <img src="/icons/github.svg" className="h-5" />
+                  </a>
+                </div>
+                <span> - </span>
+                <i>Julio, 2020</i>
+              </div>
+              <p className="text-base lg:text-lg font-light">
+                Sitio web suscripciónes recurosos para niños.
+              </p>
+              <span className="text-base lg:text-lg block mt-4 font-light">
+                <b className="font-semibold">Tecnologias:</b> React.js, Next.js,
+                Tailwind CSS
+              </span>
+            </div>
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-10">
+              <TechnicalTestCard
+                title="Winki"
+                link="https://winki.vercel.app/"
+                image="/starupslab/1.png"
+              />
+              <TechnicalTestCard
+                title="Winki"
+                link="https://winki.vercel.app/"
+                image="/starupslab/2.png"
+              />
+              <TechnicalTestCard
+                title="Winki"
+                link="https://winki.vercel.app/"
+                image="/starupslab/3.png"
+              />
             </div>
           </div>
         </div>
