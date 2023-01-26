@@ -408,7 +408,7 @@ function Home() {
                   </a>
                 </div>
                 <span> - </span>
-                <i>Jenuary, 2023</i>
+                <i>January, 2023</i>
               </div>
               <p className="text-base lg:text-lg font-light">
                 Dashboard with Pokemons list and login page.
@@ -737,6 +737,13 @@ function Home() {
             Montería, Colombía
           </span>
           <i className="text-base lg:text-lg">Graphic Design, Jun 2019</i>
+          <span className="text-base lg:text-lg mt-4 block">
+            <b className="font-semibold mr-1">
+              Universidad Pontificia Bolivariana
+            </b>
+            - Montería, Colombía
+          </span>
+          <i className="text-base lg:text-lg">Computer Engineer, Jul 2014</i>
         </div>
         <div className="my-14 hidden">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
