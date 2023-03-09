@@ -142,7 +142,7 @@ function Home() {
               ,
             </a>
             <span className="text-base lg:text-lg block md:inline-block">
-              Freelancer - <i>Abril, 2021 - Present</i>
+              Web3 Frontend - <i>Abril, 2021 - March, 2023</i>
             </span>
             <p className="text-base lg:text-lg font-light">
               Front-end Blockchain Developer, Support in project management and
