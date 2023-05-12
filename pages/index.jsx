@@ -277,7 +277,7 @@ function Home() {
               target="_blank"
               className="text-base lg:text-lg mr-1"
             >
-              <b className="font-semibold mr-1">Acadmey</b>
+              <b className="font-semibold mr-1">Academy</b>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6 inline-flex"
