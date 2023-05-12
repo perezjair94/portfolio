@@ -339,6 +339,38 @@ function Home() {
           </div>
           <div className="border-b py-8 max-w-prose">
             <a
+              href="https://oquendo.vercel.app/"
+              target="_blank"
+              className="text-base lg:text-lg mr-1"
+            >
+              <b className="font-semibold mr-1">Personal Porfolio</b>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6 inline-flex"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                />
+              </svg>{" "}
+              -
+            </a>
+            <i>August, 2022</i>
+            <p className="text-base lg:text-lg font-light">
+              Web portfolio with my information.
+            </p>
+            <span className="text-base lg:text-lg block mt-4 font-light">
+              <b className="font-semibold">Tecnologies:</b> Next.js, React.js,
+              Tailwind CSS, Vercel
+            </span>
+          </div>
+          <div className="border-b py-8 max-w-prose">
+            <a
               href="https://paytoshi.vercel.app/"
               target="_blank"
               className="text-base lg:text-lg mr-1"
@@ -368,38 +400,6 @@ function Home() {
             <span className="text-base lg:text-lg block mt-4 font-light">
               <b className="font-semibold">Tecnologies:</b> Next.js, React.js,
               Tailwind CSS, express.js, MongoDB, Vercel, Paytoshi
-            </span>
-          </div>
-          <div className="border-b py-8 max-w-prose">
-            <a
-              href="https://paytoshi.vercel.app/"
-              target="_blank"
-              className="text-base lg:text-lg mr-1"
-            >
-              <b className="font-semibold mr-1">Personal Porfolio</b>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 inline-flex"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                />
-              </svg>{" "}
-              -
-            </a>
-            <i>August, 2022</i>
-            <p className="text-base lg:text-lg font-light">
-              Web portfolio with my information.
-            </p>
-            <span className="text-base lg:text-lg block mt-4 font-light">
-              <b className="font-semibold">Tecnologies:</b> Next.js, React.js,
-              Tailwind CSS, Vercel
             </span>
           </div>
           <div className="max-w-prose">
