@@ -405,7 +405,7 @@ function Home() {
           <div className="max-w-prose">
             <div className="py-8">
               <a
-                href="https://cesquant.vercel.app"
+                href="https://cequant.net"
                 target="_blank"
                 className="text-base lg:text-lg mr-1"
               >
