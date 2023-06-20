@@ -160,13 +160,18 @@ function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-10 pb-6 border-b">
             <ProjectCard
               title="BancaCrypto"
-              link="https://bancacrypto.money"
+              link="https://bancacrypto.vercel.app/"
               image="bancacrypto.png"
             />
             <ProjectCard
               title="CapitalInvestment"
               link="https://capitalinvestmenttm.com/"
               image="capitalinvestment.png"
+            />
+            <ProjectCard
+              title="BancaAcademy"
+              link="https://academy-nu.vercel.app/"
+              image="academy.png"
             />
           </div>
           <div className="mt-6 max-w-prose pb-6 border-b">
@@ -258,7 +263,7 @@ function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-10">
             <ProjectCard
               title="Casa10"
-              link="https://micasa10.co"
+              link="https://micasa10.vercel.app/"
               image="casa10.png"
             />
             {/* <ProjectCard
@@ -271,39 +276,6 @@ function Home() {
         <div id="projects" />
         <div className="mt-14">
           <h2 className="text-2xl lg:text-3xl font-medium">Projects</h2>
-          <div className="border-b py-8 max-w-prose">
-            <a
-              href="https://academy-nu.vercel.app"
-              target="_blank"
-              className="text-base lg:text-lg mr-1"
-            >
-              <b className="font-semibold mr-1">Academy</b>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 inline-flex"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                />
-              </svg>{" "}
-              -
-            </a>
-            <i>April, 2023</i>
-            <p className="text-base lg:text-lg font-light">
-              Financial courses academy accepts payments with cryptocurrencies,
-              integrating the payment processor.
-            </p>
-            <span className="text-base lg:text-lg block mt-4 font-light">
-              <b className="font-semibold">Tecnologies:</b> Next.js, React.js,
-              Tailwind CSS, express.js, MongoDB, Vercel, Paytoshi
-            </span>
-          </div>
           <div className="border-b py-8 max-w-prose">
             <a
               href="https://paytoshi-commerce.vercel.app/"
@@ -409,7 +381,7 @@ function Home() {
                 target="_blank"
                 className="text-base lg:text-lg mr-1"
               >
-                <b className="font-semibold mr-1">Ces Quant</b>
+                <b className="font-semibold mr-1">Cesquant</b>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-6 w-6 inline-flex"
