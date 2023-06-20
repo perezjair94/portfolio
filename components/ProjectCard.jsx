@@ -1,6 +1,6 @@
 export default function ProjectCard({ title, link, image }) {
   return (
-    <div className="bg-gray-100 text-white rounded-md">
+    <div className="bg-gray-100 text-white rounded-md border">
       <div>
         <a href={link} target="_blank">
           <div className="relative">
