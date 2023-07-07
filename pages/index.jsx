@@ -118,16 +118,18 @@ function Home() {
         </div>
         <div className="mt-10">
           <h2 className="text-2xl lg:text-3xl font-medium">Experience</h2>
-          <div className="mt-10 max-w-prose">
+          <div className="mt-8 max-w-prose">
             <a
               href="https://www.capitalinvestmenttm.com"
+              className="text-base lg:text-lg mr-1 group"
               target="_blank"
-              className="text-base lg:text-lg mr-1"
             >
-              <b className="font-semibold mr-1">BancaCrypto</b>
+              <b className="font-semibold mr-1 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500 group-hover:text-black">
+                Capital Investment
+              </b>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 inline-flex"
+                className="h-6 w-6 text-pink-500 group-hover:text-black inline-flex"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -141,8 +143,80 @@ function Home() {
               </svg>
               ,
             </a>
+            <span className="text-base lg:text-lg font-light inline-block text-gray-600 my-2">
+              Medellín, Antioquia
+            </span>
             <span className="text-base lg:text-lg block md:inline-block">
-              Web3 Frontend - <i>Abril, 2021 - March, 2023</i>
+              <b className="font-semibold">Chief Technology Officer</b> -{" "}
+              <i>November, 2021 - Actualidad</i>
+            </span>
+            <p className="text-base lg:text-lg font-light mb-4">
+              Establishing project specifications and technical direction,
+              Creating a framework of technical standards and procedures, In
+              charge of helping the company use technology efficiently and
+              profitably, Create a technological strategy of the company
+              Supervise the IT infrastructure to ensure functionality.
+            </p>
+            <span className="text-base lg:text-lg block md:inline-block">
+              <b className="font-semibold">Web3 Frontend</b> -{" "}
+              <i>October, 2021 - November, 2021</i>
+            </span>
+            <p className="text-base lg:text-lg font-light">
+              Front-end Blockchain Developer, Support in project management and
+              requirements analysis for Web 3 and Blockchain applications,
+              integration and Blockchain, integration and implementation with
+              web3.js, ethers.js, Binance API, MetaMask, Smart Contract or
+              Solidity.
+            </p>
+            <span className="text-base lg:text-lg font-light mt-6 block">
+              <b className="font-semibold">Tecnologies:</b> React.js, Next.js,
+              TailwindCSS, Vercel, Solidity, Ethers.js, Web3.js, Binance API,
+              Remix, Smart Contracts
+            </span>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-10 pb-6 border-b">
+            <ProjectCard
+              title="CapitalInvestment"
+              link="https://capitalinvestmenttm.com/"
+              image="capitalinvestment.png"
+            />
+            <ProjectCard
+              title="BancaAcademy"
+              link="https://academy-nu.vercel.app/"
+              image="academy.png"
+            />
+          </div>
+          <div className="mt-10 max-w-prose">
+            <a
+              href="https://bancacrypto.vercel.app/"
+              className="text-base lg:text-lg mr-1 group"
+              target="_blank"
+            >
+              <b className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500 group-hover:text-black mr-1">
+                BancaCrypto
+              </b>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6 text-pink-500 group-hover:text-black inline-flex"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                />
+              </svg>
+              ,
+            </a>
+            <span className="text-base lg:text-lg font-light inline-block text-gray-600 my-2">
+              Medellín, Antioquia
+            </span>
+            <span className="text-base lg:text-lg block md:inline-block">
+              <b className="font-semibold">Web3 Frontend</b> -{" "}
+              <i>October, 2021 - November, 2021</i>
             </span>
             <p className="text-base lg:text-lg font-light">
               Front-end Blockchain Developer, Support in project management and
@@ -163,27 +237,20 @@ function Home() {
               link="https://bancacrypto.vercel.app/"
               image="bancacrypto.png"
             />
-            <ProjectCard
-              title="CapitalInvestment"
-              link="https://capitalinvestmenttm.com/"
-              image="capitalinvestment.png"
-            />
-            <ProjectCard
-              title="BancaAcademy"
-              link="https://academy-nu.vercel.app/"
-              image="academy.png"
-            />
           </div>
           <div className="mt-6 max-w-prose pb-6 border-b">
+            <div></div>
             <a
               href="https://www.draketech.ca/"
+              className="text-base lg:text-lg mr-1 group"
               target="_blank"
-              className="text-base lg:text-lg mr-1"
             >
-              <b className="font-semibold mr-1">DrakeTech</b>
+              <b className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500 group-hover:text-black mr-1">
+                DrakeTech
+              </b>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 inline-flex"
+                className="h-6 w-6 text-pink-500 group-hover:text-black inline-flex"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -197,11 +264,12 @@ function Home() {
               </svg>
               ,
             </a>
-            <span className="text-base lg:text-lg block md:inline-block">
-              Frontend - <i>September, 2021 - October, 2022</i>
-            </span>
-            <span className="text-base lg:text-lg font-light block text-gray-600 my-2">
+            <span className="text-base lg:text-lg font-light inline-block text-gray-600">
               Ontario, Canadá
+            </span>
+            <span className="text-base lg:text-lg block md:inline-block">
+              <b className="font-semibold">Frontend</b> -{" "}
+              <i>September, 2021 - October, 2022</i>
             </span>
             <p className="text-base lg:text-lg font-light">
               Frontend Developer, web application designer with Ant Design and
@@ -219,12 +287,14 @@ function Home() {
             <a
               href="https://startupslabagencia.co"
               target="_blank"
-              className="text-base lg:text-lg mr-1"
+              className="text-base lg:text-lg mr-1 group"
             >
-              <b className="font-semibold mr-1">Startups Lab - Agencia</b>
+              <b className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500 group-hover:text-black mr-1">
+                Startups Lab - Agencia
+              </b>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 inline-flex"
+                className="h-6 w-6 text-pink-500 group-hover:text-black inline-flex"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -238,8 +308,12 @@ function Home() {
               </svg>
               ,
             </a>
+            <span className="text-base lg:text-lg font-light inline-block text-gray-600">
+              Montería, Córdoba
+            </span>
             <span className="text-base lg:text-lg block md:inline-block">
-              Frontend - <i>August, 2019 - September, 2021</i>
+              <b className="font-semibold">Frontend</b> -{" "}
+              <i>August, 2019 - September, 2021</i>
             </span>
             <p className="text-base lg:text-lg font-light">
               Frontend developer, web page and web application designer and
@@ -280,9 +354,9 @@ function Home() {
             <a
               href="https://paytoshi-commerce.vercel.app/"
               target="_blank"
-              className="text-base lg:text-lg mr-1"
+              className="text-base lg:text-lg text-blue-500 hover:text-black"
             >
-              <b className="font-semibold mr-1">Paytoshi Commerce</b>
+              <b className="font-medium mr-1">Paytoshi Commerce</b>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6 inline-flex"
@@ -296,9 +370,9 @@ function Home() {
                   strokeWidth={2}
                   d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
                 />
-              </svg>{" "}
-              -
+              </svg>
             </a>
+            <span className="inline-block mx-2">-</span>
             <i>November, 2022</i>
             <p className="text-base lg:text-lg font-light">
               Test e-commerce to accept cryptocurrencies payments, integrating
@@ -313,9 +387,9 @@ function Home() {
             <a
               href="https://oquendo.vercel.app/"
               target="_blank"
-              className="text-base lg:text-lg mr-1"
+              className="text-base text-blue-500 hover:text-black lg:text-lg mr-1"
             >
-              <b className="font-semibold mr-1">Personal Porfolio</b>
+              <b className="font-medium mr-1">Personal Porfolio</b>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6 inline-flex"
@@ -329,9 +403,9 @@ function Home() {
                   strokeWidth={2}
                   d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
                 />
-              </svg>{" "}
-              -
+              </svg>
             </a>
+            <span className="inline-block mx-2">-</span>
             <i>August, 2022</i>
             <p className="text-base lg:text-lg font-light">
               Web portfolio with my information.
@@ -345,9 +419,9 @@ function Home() {
             <a
               href="https://paytoshi.vercel.app/"
               target="_blank"
-              className="text-base lg:text-lg mr-1"
+              className="text-base lg:text-lg text-blue-500 hover:text-black"
             >
-              <b className="font-semibold mr-1">Paytoshi</b>
+              <b className="font-medium mr-1">Paytoshi</b>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6 inline-flex"
@@ -361,9 +435,9 @@ function Home() {
                   strokeWidth={2}
                   d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
                 />
-              </svg>{" "}
-              -
+              </svg>
             </a>
+            <span className="inline-block mx-2">-</span>
             <i>July, 2022</i>
             <p className="text-base lg:text-lg font-light">
               Test to accept payments with cryptocurrencies, integrating the
@@ -379,9 +453,9 @@ function Home() {
               <a
                 href="https://cequant.net"
                 target="_blank"
-                className="text-base lg:text-lg mr-1"
+                className="text-base text-blue-500 hover:text-black lg:text-lg"
               >
-                <b className="font-semibold mr-1">Cesquant</b>
+                <b className="font-medium mr-1">Cesquant</b>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-6 w-6 inline-flex"
@@ -395,9 +469,9 @@ function Home() {
                     strokeWidth={2}
                     d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
                   />
-                </svg>{" "}
-                -
+                </svg>
               </a>
+              <span className="inline-block mx-2">-</span>
               <i>April, 2021</i>
               <p className="text-base lg:text-lg font-light">
                 Platform of courses on finance.
@@ -417,15 +491,15 @@ function Home() {
                 <div className="flex items-center">
                   <a
                     href="https://monoma-test.vercel.app/"
-                    className="text-base lg:text-lg mr-1"
+                    className="text-base lg:text-lg mr-1 group"
                     target="_blank"
                   >
-                    <b className="font-semibold mr-1">
+                    <b className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500 group-hover:text-black mr-1">
                       Pkemon Dashboard (Monoma)
                     </b>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="h-6 w-6 inline-flex"
+                      className="h-6 w-6 text-pink-500 group-hover:text-black inline-flex"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -475,15 +549,15 @@ function Home() {
                 <div className="flex items-center">
                   <a
                     href="https://monoma-test.vercel.app/"
-                    className="text-base lg:text-lg mr-1"
+                    className="text-base lg:text-lg mr-1 group"
                     target="_blank"
                   >
-                    <b className="font-semibold mr-1">
+                    <b className="font-semibold mr-1 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500 group-hover:text-black">
                       Landing Recetas (Aranda)
                     </b>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="h-6 w-6 inline-flex"
+                      className="h-6 w-6 inline-flex text-pink-500 group-hover:text-black"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -533,13 +607,15 @@ function Home() {
                 <div className="flex items-center">
                   <a
                     href="https://shop-example-two.vercel.app/"
-                    className="text-base lg:text-lg mr-1"
+                    className="text-base lg:text-lg mr-1 group"
                     target="_blank"
                   >
-                    <b className="font-semibold mr-1">Shoes Shop (DrakeTech)</b>
+                    <b className="font-semibold  bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500 group-hover:text-black mr-1">
+                      Shoes Shop (DrakeTech)
+                    </b>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="h-6 w-6 inline-flex"
+                      className="h-6 w-6 text-pink-500 group-hover:text-black inline-flex"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -589,13 +665,15 @@ function Home() {
                 <div className="flex items-center">
                   <a
                     href="https://shop-example-two.vercel.app/"
-                    className="text-base lg:text-lg mr-1"
+                    className="text-base lg:text-lg mr-1 group"
                     target="_blank"
                   >
-                    <b className="font-semibold mr-1">Dashboard (Bold)</b>
+                    <b className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500 group-hover:text-black mr-1">
+                      Dashboard (Bold)
+                    </b>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="h-6 w-6 inline-flex"
+                      className="h-6 w-6 text-pink-500 group-hover:text-black inline-flex"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -645,13 +723,15 @@ function Home() {
                 <div className="flex items-center">
                   <a
                     href="https://shop-example-two.vercel.app/"
-                    className="text-base lg:text-lg mr-1"
+                    className="text-base lg:text-lg mr-1 group"
                     target="_blank"
                   >
-                    <b className="font-semibold mr-1">Winki (Starupslab)</b>
+                    <b className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500 group-hover:text-black mr-1">
+                      Winki (Starupslab)
+                    </b>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="h-6 w-6 inline-flex"
+                      className="h-6 w-6 text-pink-500 group-hover:text-black inline-flex"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -708,12 +788,14 @@ function Home() {
               <a
                 href="https://www.figma.com/proto/yKNob6ZJhx6KShtbEtRUly/LandingNFT?node-id=1%3A3&scaling=scale-down-width&page-id=0%3A1"
                 target="_blank"
-                className="text-base lg:text-lg mr-1"
+                className="text-base lg:text-lg mr-1 group"
               >
-                <b className="font-semibold mr-1">Landing NFT</b>
+                <b className="font-semibold text-pink-500 group-hover:text-black mr-1">
+                  Landing NFT
+                </b>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 inline-flex"
+                  className="h-6 w-6 text-pink-500 group-hover:text-black inline-flex"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -739,12 +821,14 @@ function Home() {
               <a
                 href="https://www.figma.com/proto/BzdYAC5JEkHiCR8R9nCy5a/portfolio?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1"
                 target="_blank"
-                className="text-base lg:text-lg mr-1"
+                className="text-base lg:text-lg mr-1 group"
               >
-                <b className="font-semibold mr-1">Portfolio</b>
+                <b className="font-semibold text-pink-500 group-hover:text-black mr-1">
+                  Portfolio
+                </b>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 inline-flex"
+                  className="h-6 w-6  text-pink-500 group-hover:text-black inline-flex"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
