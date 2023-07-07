@@ -51,7 +51,7 @@ function Home() {
             </p>
             <a
               href="/docs/Resume%20-%20Jair%20Pérez.pdf"
-              className="mt-5 font-semibold inline-block md:text-lg"
+              className="mt-5 font-medium inline-block md:text-lg"
               target="_blank"
             >
               <div className="flex items-center space-x-2 group">
@@ -124,7 +124,7 @@ function Home() {
               className="text-base lg:text-lg mr-1 group"
               target="_blank"
             >
-              <b className="font-semibold mr-1 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500 group-hover:text-black">
+              <b className="font-medium mr-1 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500 group-hover:text-black">
                 Capital Investment
               </b>
               <svg
@@ -192,7 +192,7 @@ function Home() {
               className="text-base lg:text-lg mr-1 group"
               target="_blank"
             >
-              <b className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500 group-hover:text-black mr-1">
+              <b className="font-medium bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500 group-hover:text-black mr-1">
                 BancaCrypto
               </b>
               <svg
@@ -245,7 +245,7 @@ function Home() {
               className="text-base lg:text-lg mr-1 group"
               target="_blank"
             >
-              <b className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500 group-hover:text-black mr-1">
+              <b className="font-medium bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500 group-hover:text-black mr-1">
                 DrakeTech
               </b>
               <svg
@@ -289,7 +289,7 @@ function Home() {
               target="_blank"
               className="text-base lg:text-lg mr-1 group"
             >
-              <b className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500 group-hover:text-black mr-1">
+              <b className="font-medium bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500 group-hover:text-black mr-1">
                 Startups Lab - Agencia
               </b>
               <svg
@@ -487,15 +487,15 @@ function Home() {
           <h2 className="text-2xl lg:text-3xl font-medium">Technical Tests</h2>
           <div className="py-8">
             <div className="max-w-prose">
-              <div className="flex items-center gap-x-2">
+              <div className="lg:flex items-center gap-x-2">
                 <div className="flex items-center">
                   <a
                     href="https://monoma-test.vercel.app/"
                     className="text-base lg:text-lg mr-1 group"
                     target="_blank"
                   >
-                    <b className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500 group-hover:text-black mr-1">
-                      Pkemon Dashboard (Monoma)
+                    <b className="font-medium bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500 group-hover:text-black mr-1">
+                      Pokemon Dashboard (Monoma)
                     </b>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -546,13 +546,13 @@ function Home() {
           <div className="py-8">
             <div className="max-w-prose">
               <div className="flex items-center gap-x-2">
-                <div className="flex items-center">
+                <div className="lg:flex items-center">
                   <a
                     href="https://monoma-test.vercel.app/"
                     className="text-base lg:text-lg mr-1 group"
                     target="_blank"
                   >
-                    <b className="font-semibold mr-1 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500 group-hover:text-black">
+                    <b className="font-medium mr-1 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500 group-hover:text-black">
                       Landing Recetas (Aranda)
                     </b>
                     <svg
@@ -604,13 +604,13 @@ function Home() {
           <div className="py-8">
             <div className="max-w-prose">
               <div className="flex items-center gap-x-2">
-                <div className="flex items-center">
+                <div className="lg:flex items-center">
                   <a
                     href="https://shop-example-two.vercel.app/"
                     className="text-base lg:text-lg mr-1 group"
                     target="_blank"
                   >
-                    <b className="font-semibold  bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500 group-hover:text-black mr-1">
+                    <b className="font-medium bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500 group-hover:text-black mr-1">
                       Shoes Shop (DrakeTech)
                     </b>
                     <svg
@@ -662,13 +662,13 @@ function Home() {
           <div className="py-8">
             <div className="max-w-prose">
               <div className="flex items-center gap-x-2">
-                <div className="flex items-center">
+                <div className="lg:flex items-center">
                   <a
                     href="https://shop-example-two.vercel.app/"
                     className="text-base lg:text-lg mr-1 group"
                     target="_blank"
                   >
-                    <b className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500 group-hover:text-black mr-1">
+                    <b className="font-medium bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500 group-hover:text-black mr-1">
                       Dashboard (Bold)
                     </b>
                     <svg
@@ -720,13 +720,13 @@ function Home() {
           <div className="py-8">
             <div className="max-w-prose">
               <div className="flex items-center gap-x-2">
-                <div className="flex items-center">
+                <div className="lg:flex items-center">
                   <a
                     href="https://shop-example-two.vercel.app/"
                     className="text-base lg:text-lg mr-1 group"
                     target="_blank"
                   >
-                    <b className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500 group-hover:text-black mr-1">
+                    <b className="font-medium bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500 group-hover:text-black mr-1">
                       Winki (Starupslab)
                     </b>
                     <svg
@@ -790,7 +790,7 @@ function Home() {
                 target="_blank"
                 className="text-base lg:text-lg mr-1 group"
               >
-                <b className="font-semibold text-pink-500 group-hover:text-black mr-1">
+                <b className="font-medium text-pink-500 group-hover:text-black mr-1">
                   Landing NFT
                 </b>
                 <svg
@@ -823,7 +823,7 @@ function Home() {
                 target="_blank"
                 className="text-base lg:text-lg mr-1 group"
               >
-                <b className="font-semibold text-pink-500 group-hover:text-black mr-1">
+                <b className="font-medium text-pink-500 group-hover:text-black mr-1">
                   Portfolio
                 </b>
                 <svg
