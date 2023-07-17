@@ -146,7 +146,7 @@ function Home() {
             <span className="text-base lg:text-lg font-light inline-block text-gray-600 my-2">
               Medellín, Antioquia
             </span>
-            <span className="text-base lg:text-lg block md:inline-block">
+            {/* <span className="text-base lg:text-lg block md:inline-block">
               <b className="font-semibold">Chief Technology Officer</b> -{" "}
               <i>November, 2021 - Actualidad</i>
             </span>
@@ -156,7 +156,7 @@ function Home() {
               charge of helping the company use technology efficiently and
               profitably, Create a technological strategy of the company
               Supervise the IT infrastructure to ensure functionality.
-            </p>
+            </p> */}
             <span className="text-base lg:text-lg block md:inline-block">
               <b className="font-semibold">Web3 Frontend</b> -{" "}
               <i>October, 2021 - November, 2021</i>
