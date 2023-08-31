@@ -42,21 +42,18 @@ function Home() {
               Javascript, React.js, Next.js, Web3.js
             </span>
             <p className="text-base lg:text-lg mt-4 font-light">
-              With +4 years of experience developing Frontend applications
-              Javascript with React.js, Next.js Framework, Redux.js, Tailwind
-              CSS, SASS or Bootstrap, Backend with Node.js, express.js and
-              MongoDB, Blockchain with Ethers.js, Smart Contracts, Solidity or
-              Binance API and virtual environments with Three.js integrated with
-              blockchain networks.
+              Desarrollador Frontend con +4 años de experiencia desarrollando
+              aplicaciones Frontend Javascript con React.js, Next.js Framework,
+              Redux.js, TailwindCSS, SASS o Bootstrap.
             </p>
             <a
-              href="/docs/Resume%20-%20Jair%20Pérez.pdf"
+              href="/docs/CV%20-%20Jair%20Pérez.pdf"
               className="mt-5 font-medium inline-block md:text-lg"
               target="_blank"
             >
               <div className="flex items-center space-x-2 group">
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-500 group-hover:text-black">
-                  See resume
+                  Ver curriculum
                 </span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -86,38 +83,8 @@ function Home() {
             />
           </div>
         </div>
-        <div className="mt-14">
-          <h2 className="text-2xl lg:text-3xl font-medium">Habilities</h2>
-          <div className="mt-4">
-            <h3 className="text-xl lg:text-2xl font-medium">
-              Frameworks - Tools
-            </h3>
-            <p className="mt-3 text-base lg:text-lg font-light max-w-prose">
-              <span className="block">
-                <b className="font-semibold">Advanced:</b> React, Next.js,
-                Ethers.js, Web3.js, Binance API, Vercel, Tailwind CSS,
-                Bootstrap, JSON, Web API.
-              </span>
-              <span className="block">
-                <b className="font-semibold">Intermediate:</b> Node.js, Git,
-                Gitflow, MongoDB, express.js, AWS, Redux.js, Three.js JWT, SASS,
-                Remix, Solidity.
-              </span>
-              <span className="block">
-                <b className="font-semibold">Basic:</b> Angular 2+, GraphQL,
-                Typescript, Docker, Python.
-              </span>
-            </p>
-          </div>
-          <div className="mt-4">
-            <h3 className="text-xl lg:text-2xl font-medium">Lenguages</h3>
-            <p className="mt-3 text-base lg:text-lg font-light">
-              Javascript, Solidity, CSS, SASS, HTML.
-            </p>
-          </div>
-        </div>
         <div className="mt-10">
-          <h2 className="text-2xl lg:text-3xl font-medium">Experience</h2>
+          <h2 className="text-2xl lg:text-3xl font-medium">Experiencia</h2>
           <div className="mt-8 max-w-prose">
             <a
               href="https://www.capitalinvestmenttm.com"
@@ -146,30 +113,18 @@ function Home() {
             <span className="text-base lg:text-lg font-light inline-block text-gray-600 my-2">
               Medellín, Antioquia
             </span>
-            {/* <span className="text-base lg:text-lg block md:inline-block">
-              <b className="font-semibold">Chief Technology Officer</b> -{" "}
-              <i>November, 2021 - Actualidad</i>
-            </span>
-            <p className="text-base lg:text-lg font-light mb-4">
-              Establishing project specifications and technical direction,
-              Creating a framework of technical standards and procedures, In
-              charge of helping the company use technology efficiently and
-              profitably, Create a technological strategy of the company
-              Supervise the IT infrastructure to ensure functionality.
-            </p> */}
             <span className="text-base lg:text-lg block md:inline-block">
               <b className="font-semibold">Web3 Frontend</b> -{" "}
-              <i>October, 2021 - November, 2021</i>
+              <i>Noviembre, 2022 - Agosto, 2023</i>
             </span>
             <p className="text-base lg:text-lg font-light">
-              Front-end Blockchain Developer, Support in project management and
-              requirements analysis for Web 3 and Blockchain applications,
-              integration and Blockchain, integration and implementation with
-              web3.js, ethers.js, Binance API, MetaMask, Smart Contract or
-              Solidity.
+              Desarrollador Front-end Blockchain, Soporte en gestión de
+              proyectos y análisis de requerimientos para aplicaciones Web3 y
+              Blockchain, integración e implementación con web3.js, ethers.js,
+              MetaMask, Samart Contract o Solidity.
             </p>
             <span className="text-base lg:text-lg font-light mt-6 block">
-              <b className="font-semibold">Tecnologies:</b> React.js, Next.js,
+              <b className="font-semibold">Tecnologías:</b> React.js, Next.js,
               TailwindCSS, Vercel, Solidity, Ethers.js, Web3.js, Binance API,
               Remix, Smart Contracts
             </span>
@@ -216,17 +171,16 @@ function Home() {
             </span>
             <span className="text-base lg:text-lg block md:inline-block">
               <b className="font-semibold">Web3 Frontend</b> -{" "}
-              <i>October, 2021 - November, 2021</i>
+              <i>Octubre, 2021 - Noviembre, 2021</i>
             </span>
             <p className="text-base lg:text-lg font-light">
-              Front-end Blockchain Developer, Support in project management and
-              requirements analysis for Web 3 and Blockchain applications,
-              integration and Blockchain, integration and implementation with
-              web3.js, ethers.js, Binance API, MetaMask, Smart Contract or
-              Solidity.
+              Desarrollador Blockchain Front-end, Apoyo en la gestión de
+              proyectos y análisis de los requisitos para aplicaciones Web3 y
+              Blockchain, integración e implementación con web3.js, ethers.js,
+              MetaMask, Smart Contract o Solidity.
             </p>
             <span className="text-base lg:text-lg font-light mt-6 block">
-              <b className="font-semibold">Tecnologies:</b> React.js, Next.js,
+              <b className="font-semibold">Tecnologías:</b> React.js, Next.js,
               TailwindCSS, Vercel, Solidity, Ethers.js, Web3.js, Binance API,
               Remix, Smart Contracts
             </span>
@@ -269,16 +223,16 @@ function Home() {
             </span>
             <span className="text-base lg:text-lg block md:inline-block">
               <b className="font-semibold">Frontend</b> -{" "}
-              <i>September, 2021 - October, 2022</i>
+              <i>Septiembre, 2021 - Octubre, 2022</i>
             </span>
             <p className="text-base lg:text-lg font-light">
-              Frontend Developer, web application designer with Ant Design and
-              Bootstrap, integration with APIs and implementation with React and
-              Redux, support in project management and requirements analysis for
-              software requirements for software implementation.
+              Desarrollador Frontend, maquetador de aplicaciones web con Ant
+              Design y Bootstrap, integración con APIs e implementación con
+              React y Redux, apoyo en la gestión de proyectos y análisis de los
+              requisitos para aplicación de programas.
             </p>
             <span className="text-base lg:text-lg font-light mt-6 block">
-              <b className="font-semibold">Tecnologies:</b> React.js, Redux.js,
+              <b className="font-semibold">Tecnologías:</b> React.js, Redux.js,
               Javascript, JSON, JWT, Web API Ant Design, Bootstrap, Git, Git
               flow
             </span>
@@ -313,20 +267,22 @@ function Home() {
             </span>
             <span className="text-base lg:text-lg block md:inline-block">
               <b className="font-semibold">Frontend</b> -{" "}
-              <i>August, 2019 - September, 2021</i>
+              <i>Agosto, 2019 - Septiembre, 2021</i>
             </span>
             <p className="text-base lg:text-lg font-light">
-              Frontend developer, web page and web application designer and
-              integration of APIs with the Frontend.
+              Desarrollador Frontend, maquetador de páginas y aplicaciones web e
+              integración de APIs con el Frontend.
             </p>
             <ul className="text-base font-light list-disc p-6 px-8">
               <li>
-                Reduce by 80% the delivery time of web sites to the customer
-                thanks to Vercel
+                Reduje en 80% el tiempo de entrega de webs al cliente gracias
+                Vercel
               </li>
-              <li>Reduce layout time by 40% with Tailwind CSS</li>
               <li>
-                Increased development efficiency by 70% thanks to Git flow
+                Reduje en un 40% el tiempo de maquetación gracias a Tailwind CSS
+              </li>
+              <li>
+                Aumentó en 70% la eficiencia de desarrollo gracias a Git flow
               </li>
             </ul>
             <span className="text-base lg:text-lg font-light">
@@ -340,16 +296,11 @@ function Home() {
               link="https://micasa10.vercel.app/"
               image="casa10.png"
             />
-            {/* <ProjectCard
-              title="Neutro"
-              link="https://wearered.co/neutro"
-              image="neutro.jpg"
-            /> */}
           </div>
         </div>
         <div id="projects" />
         <div className="mt-14">
-          <h2 className="text-2xl lg:text-3xl font-medium">Projects</h2>
+          <h2 className="text-2xl lg:text-3xl font-medium">Proyectos</h2>
           <div className="border-b py-8 max-w-prose">
             <a
               href="https://paytoshi-commerce.vercel.app/"
@@ -373,78 +324,13 @@ function Home() {
               </svg>
             </a>
             <span className="inline-block mx-2">-</span>
-            <i>November, 2022</i>
+            <i>Noviembre, 2022</i>
             <p className="text-base lg:text-lg font-light">
-              Test e-commerce to accept cryptocurrencies payments, integrating
-              Paytoshi payment processor.
+              Pruebe el comercio electrónico para aceptar pagos con
+              criptomonedas, integrando el procesador de pagos Paytoshi.
             </p>
             <span className="text-base lg:text-lg block mt-4 font-light">
-              <b className="font-semibold">Tecnologies:</b> Next.js, React.js,
-              Tailwind CSS, express.js, MongoDB, Vercel, Paytoshi
-            </span>
-          </div>
-          <div className="border-b py-8 max-w-prose">
-            <a
-              href="https://oquendo.vercel.app/"
-              target="_blank"
-              className="text-base text-blue-500 hover:text-black lg:text-lg mr-1"
-            >
-              <b className="font-medium mr-1">Personal Porfolio</b>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 inline-flex"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                />
-              </svg>
-            </a>
-            <span className="inline-block mx-2">-</span>
-            <i>August, 2022</i>
-            <p className="text-base lg:text-lg font-light">
-              Web portfolio with my information.
-            </p>
-            <span className="text-base lg:text-lg block mt-4 font-light">
-              <b className="font-semibold">Tecnologies:</b> Next.js, React.js,
-              Tailwind CSS, Vercel
-            </span>
-          </div>
-          <div className="border-b py-8 max-w-prose">
-            <a
-              href="https://paytoshi.vercel.app/"
-              target="_blank"
-              className="text-base lg:text-lg text-blue-500 hover:text-black"
-            >
-              <b className="font-medium mr-1">Paytoshi</b>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 inline-flex"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                />
-              </svg>
-            </a>
-            <span className="inline-block mx-2">-</span>
-            <i>July, 2022</i>
-            <p className="text-base lg:text-lg font-light">
-              Test to accept payments with cryptocurrencies, integrating the
-              payment processor.
-            </p>
-            <span className="text-base lg:text-lg block mt-4 font-light">
-              <b className="font-semibold">Tecnologies:</b> Next.js, React.js,
+              <b className="font-semibold">Tecnologías:</b> Next.js, React.js,
               Tailwind CSS, express.js, MongoDB, Vercel, Paytoshi
             </span>
           </div>
@@ -472,19 +358,19 @@ function Home() {
                 </svg>
               </a>
               <span className="inline-block mx-2">-</span>
-              <i>April, 2021</i>
+              <i>Abril, 2021</i>
               <p className="text-base lg:text-lg font-light">
-                Platform of courses on finance.
+                Plataforma de cursos financieros.
               </p>
               <span className="text-base lg:text-lg block mt-4 font-light">
-                <b className="font-semibold">Tecnologies:</b> Next.js, React.js,
+                <b className="font-semibold">Tecnologías:</b> Next.js, React.js,
                 Bootstrap, express.js, MongoDB, Vercel
               </span>
             </div>
           </div>
         </div>
-        <div className="mt-14">
-          <h2 className="text-2xl lg:text-3xl font-medium">Technical Tests</h2>
+        <div className="mt-10">
+          <h2 className="text-2xl lg:text-3xl font-medium">Pruebas Técnicas</h2>
           <div className="py-8">
             <div className="max-w-prose">
               <div className="lg:flex items-center gap-x-2">
@@ -520,13 +406,13 @@ function Home() {
                   </a>
                 </div>
                 <span> - </span>
-                <i>January, 2023</i>
+                <i>Enero, 2023</i>
               </div>
               <p className="text-base lg:text-lg font-light">
-                Dashboard with Pokemons list and login page.
+                Dashboard con lista de Pokemons.
               </p>
               <span className="text-base lg:text-lg block mt-4 font-light">
-                <b className="font-semibold">Tecnologies:</b> Next.js, React.js,
+                <b className="font-semibold">Tecnologías:</b> Next.js, React.js,
                 Typescript, Tailwind CSS, Twin.macro
               </span>
             </div>
@@ -578,13 +464,13 @@ function Home() {
                   </a>
                 </div>
                 <span> - </span>
-                <i>November, 2022</i>
+                <i>Noviembre, 2022</i>
               </div>
               <p className="text-base lg:text-lg font-light">
-                Landing page about recipes.
+                Landing page sobre recetas.
               </p>
               <span className="text-base lg:text-lg block mt-4 font-light">
-                <b className="font-semibold">Tecnologies:</b> React.js,
+                <b className="font-semibold">Tecnologías:</b> React.js,
                 Typescript, SASS
               </span>
             </div>
@@ -636,13 +522,13 @@ function Home() {
                   </a>
                 </div>
                 <span> - </span>
-                <i>September, 2021</i>
+                <i>Septiembre, 2021</i>
               </div>
               <p className="text-base lg:text-lg font-light">
-                E-commerce about shoes.
+                E-commerce sobre ropa.
               </p>
               <span className="text-base lg:text-lg block mt-4 font-light">
-                <b className="font-semibold">Tecnologies:</b> React.js, CSS,
+                <b className="font-semibold">Tecnologías:</b> React.js, CSS,
                 Semantic UI, SWR
               </span>
             </div>
@@ -694,13 +580,13 @@ function Home() {
                   </a>
                 </div>
                 <span> - </span>
-                <i>May, 2021</i>
+                <i>Mayo, 2021</i>
               </div>
               <p className="text-base lg:text-lg font-light">
-                Dashboard about sales record with filtering option.
+                Dashboard sobre registro de ventas con opción de filtrado.
               </p>
               <span className="text-base lg:text-lg block mt-4 font-light">
-                <b className="font-semibold">Tecnologies:</b> React.js, Next.js,
+                <b className="font-semibold">Tecnologías:</b> React.js, Next.js,
                 Tailwind CSS
               </span>
             </div>
@@ -752,10 +638,10 @@ function Home() {
                   </a>
                 </div>
                 <span> - </span>
-                <i>July, 2020</i>
+                <i>Julio, 2020</i>
               </div>
               <p className="text-base lg:text-lg font-light">
-                Suscription website resources for children.
+                Sitio web de suscripción para niños.
               </p>
               <span className="text-base lg:text-lg block mt-4 font-light">
                 <b className="font-semibold">Tecnologies:</b> React.js, Next.js,
@@ -782,7 +668,36 @@ function Home() {
           </div>
         </div>
         <div className="mt-10">
-          <h2 className="text-2xl lg:text-3xl font-medium">Prototypes</h2>
+          <h2 className="text-2xl lg:text-3xl font-medium">Habilidades</h2>
+          <div className="mt-4">
+            <h3 className="text-xl lg:text-2xl font-medium">
+              Frameworks - Herramientas
+            </h3>
+            <p className="mt-3 text-base lg:text-lg font-light max-w-prose">
+              <span className="block">
+                <b className="font-semibold">Avanzado:</b> React, Next.js,
+                Ethers.js, Web3.js, Binance API, Vercel, Tailwind CSS,
+                Bootstrap, JSON, Web API.
+              </span>
+              <span className="block">
+                <b className="font-semibold">Intermedio:</b>
+                Node.js,Typescript, Git, Gitflow, MongoDB, express.js, AWS,
+                Redux.js, Three.js JWT, SASS, Remix, Solidity.
+              </span>
+              <span className="block">
+                <b className="font-semibold">Básico:</b> GraphQL, Docker.
+              </span>
+            </p>
+          </div>
+          <div className="mt-4">
+            <h3 className="text-xl lg:text-2xl font-medium">Lenguajes</h3>
+            <p className="mt-3 text-base lg:text-lg font-light">
+              Javascript, Solidity, CSS, SASS, HTML.
+            </p>
+          </div>
+        </div>
+        <div className="mt-10">
+          <h2 className="text-2xl lg:text-3xl font-medium">Prototipos</h2>
           <div className="max-w-prose">
             <div className="border-b py-8">
               <a
@@ -809,12 +724,12 @@ function Home() {
                 </svg>{" "}
                 -
               </a>
-              <i>September, 2021</i>
+              <i>Septiembre, 2021</i>
               <p className="text-base lg:text-lg font-light">
-                Landing for NFTs collection.
+                Landing para NFTs collection.
               </p>
               <span className="text-base lg:text-lg block mt-4 font-light">
-                <b className="font-semibold">Tecnologies:</b> Figma
+                <b className="font-semibold">Tecnologías:</b> Figma
               </span>
             </div>
             <div className="py-8">
@@ -842,18 +757,18 @@ function Home() {
                 </svg>{" "}
                 -
               </a>
-              <i>August, 2021</i>
+              <i>Agosto, 2021</i>
               <p className="text-base lg:text-lg font-light">
                 Personal portfolio.
               </p>
               <span className="text-base lg:text-lg block mt-4 font-light">
-                <b className="font-semibold">Tecnologies:</b> Figma
+                <b className="font-semibold">Tecnologías:</b> Figma
               </span>
             </div>
           </div>
         </div>
         <div className="mt-10 font-light mb-8">
-          <h2 className="text-2xl lg:text-3xl font-medium">Education</h2>
+          <h2 className="text-2xl lg:text-3xl font-medium">Educación</h2>
           <span className="text-base lg:text-lg mt-4 block">
             <b className="font-semibold mr-1">Tecnológico San Agustín</b>-
             Montería, Colombía
@@ -866,45 +781,6 @@ function Home() {
             - Montería, Colombía
           </span>
           <i className="text-base lg:text-lg">Computer Engineer, Jul 2014</i>
-        </div>
-        <div className="my-14 hidden">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
-            <div>
-              <div className="h-44 bg-gray-100 rounded-md" />
-              <div className="flex space-x-4 mt-4 items-center">
-                <div className="h-16 w-16 rounded-full bg-gray-300" />
-                <div>
-                  <h3 className="text-xl font-semibold">Jesus Ricardo</h3>
-                  <span className="text-base">Fullstack Developer</span>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className="h-44 bg-gray-100 rounded-md" />
-              <div className="flex space-x-4 mt-4 items-center">
-                <div className="h-16 w-16 rounded-full bg-gray-300" />
-                <div>
-                  <h3 className="text-xl font-semibold">Paola Rohanes</h3>
-                  <span className="text-base">Administradora de empresas</span>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className="h-44 bg-gray-100 rounded-md">
-                <p className="p-10 font-light">
-                  Jair Pérez aprende rápido y es muy apasionado en lo que hace,
-                  le gustan los retos y me sorprende mucho su resiliencia.
-                </p>
-              </div>
-              <div className="flex space-x-4 mt-4 items-center">
-                <div className="h-16 w-16 rounded-full bg-gray-300" />
-                <div>
-                  <h3 className="text-xl font-semibold">Neifer García</h3>
-                  <span className="text-base">Backend Developer</span>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </Layout>
