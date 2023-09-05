@@ -1,0 +1,28 @@
+@tailwind components;
+
+@layer components {
+  .card {
+    @apply mt-6 max-w-prose
+  }
+  .card-header {
+    @apply flex items-center space-x-3
+  }
+  .title {
+    @apply font-medium;
+  }
+  .link {
+    @apply flex items-center space-x-2
+  }
+  .link h2 {
+    @apply lg:text-lg;
+  }
+  .card-header span {
+    @apply font-light text-gray-600
+  }
+  .caption {
+    @apply text-gray-600
+  }
+  .card p {
+    @apply mt-2
+  }
+}
