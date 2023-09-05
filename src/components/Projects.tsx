@@ -1,14 +1,6 @@
 import Project from "./Project";
 import Section from "./Section";
-
-const projects = [
-  {
-    title: "Cesquant",
-    url: "https://cequant.net",
-    createdAt: "Abril, 2021",
-    description: "Plataforma de cursos financieros.",
-  },
-];
+import projects from "@/data/projects.json";
 
 export default function Projects() {
   return (
