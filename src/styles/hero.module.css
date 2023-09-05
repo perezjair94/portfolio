@@ -1,0 +1,30 @@
+@tailwind components;
+
+@layer components {
+  .content {
+    @apply grid gap-5 md:grid-cols-3 lg:gap-0;
+  }
+  .bio {
+    @apply col-span-2;
+  }
+  .title {
+    @apply font-semibold text-2xl lg:text-3xl;
+  }
+  .caption {
+    @apply text-lg font-medium;
+  }
+  .description {
+    @apply mt-4 font-light lg:text-lg;
+  }
+  .link {
+    @apply mt-5 font-medium md:text-lg;
+    @apply flex items-center space-x-2;
+  }
+  .link span {
+    @apply bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-blue-500 to-pink-500
+  }
+  .link-icon {
+    @apply text-pink-500
+  }
+}
