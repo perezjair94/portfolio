@@ -17,7 +17,7 @@ describe("Home", () => {
 
   it("render a heading", () => {
     render(<Home />);
-    screen.getByRole("heading", { name: /Front-end Developer/i });
+    screen.getByRole("heading", { name: /Desarrollador Frontend/i });
   });
 
   it("render a caption", () => {
@@ -30,7 +30,7 @@ describe("Home", () => {
     render(<Home />);
     const description = screen.getByRole("description");
     expect(description).toHaveTextContent(
-      "Desarrollador Frontend con +4 años de experiencia desarrollando aplicaciones Frontend Javascript con React.js, Next.js Framework, Redux.js, TailwindCSS, SASS o Bootstrap."
+      "Desarrollador con +4 años de experiencia desarrollando aplicaciones Frontend Javascript en React.js, Next.js Framework, Redux.js, TailwindCSS, SASS o Bootstrap, Blockchain con Ethers.js, Smart Contracts, Solidity o Binance API y entornos virtuales con Three.js integrados con redes blockchain."
     );
   });
 

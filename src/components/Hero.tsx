@@ -6,19 +6,21 @@ export default function Hero() {
   return (
     <section className={styles.content}>
       <div className={styles.bio}>
-        <h1 className={styles.title}>Front-end Developer</h1>
+        <h1 className={styles.title}>Desarrollador Frontend</h1>
         <span className={styles.caption} role="caption">
           Javascript, React.js, Next.js, Web3.js
         </span>
         <p role="description">
-          Desarrollador Frontend con +4 años de experiencia desarrollando
-          aplicaciones Frontend Javascript con React.js, Next.js Framework,
-          Redux.js, TailwindCSS, SASS o Bootstrap.
+          Desarrollador con +4 años de experiencia desarrollando aplicaciones
+          Frontend Javascript en React.js, Next.js Framework, Redux.js,
+          TailwindCSS, SASS o Bootstrap, Blockchain con Ethers.js, Smart
+          Contracts, Solidity o Binance API y entornos virtuales con Three.js
+          integrados con redes blockchain.
         </p>
         <Link
           role="linkCurriculum"
           className={styles.link}
-          href=""
+          href="/docs/CV%20-%20Jair%20Pérez.pdf"
           target="_blank"
         >
           <span>Ver curriculum</span>
