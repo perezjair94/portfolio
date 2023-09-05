@@ -4,6 +4,8 @@ import { render, screen } from "@testing-library/react";
 const project = {
   title: "Cesquant",
   url: "https://cequant.net",
+  createdAt: "Abril, 2021",
+  description: "Plataforma de cursos financieros.",
 };
 
 describe("Experience component", () => {
@@ -16,5 +18,8 @@ describe("Experience component", () => {
     render(<Project {...project} />);
     const title = screen.getByRole("heading");
     expect(title).toHaveTextContent(project.title);
+
+    const description = screen.getByRole("project-description");
+    expect(description).toHaveTextContent(project.description);
   });
 });
