@@ -2,11 +2,10 @@ import React from "react";
 import { Global, css } from "@emotion/react";
 import tw, { theme, GlobalStyles as BaseStyles } from "twin.macro";
 
-const red = theme`colors.red.500`;
+const red = theme`colors.black`;
 const customStyles = css`
   html {
     height: 100%;
-    font-family: Inter, "system-ui";
   }
 
   h1,
@@ -17,19 +16,16 @@ const customStyles = css`
   h6,
   p,
   span {
-    font-family: Inter, "system-ui";
   }
 
   @supports (font-variation-settings: normal) {
     html {
-      font-family: Inter, "system-ui";
     }
   }
 
   body {
     height: 100%;
     -webkit-tap-highlight-color: ${red};
-    font-family: Inter, "system-ui";
     ${tw`antialiased`}
   }
 
