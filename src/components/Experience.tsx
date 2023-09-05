@@ -1,4 +1,4 @@
-import styles from "@/styles/experiences.module.css";
+import styles from "@/styles/experience.module.css";
 import Link from "next/link";
 import { Icon } from "./Icon";
 
