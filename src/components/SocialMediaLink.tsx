@@ -10,7 +10,7 @@ interface Props {
 export default function SocialLink({ link, icon, size = 30 }: Props) {
   return (
     <Link href={link} target="_blank">
-      <Icon name={icon} size={size} />
+      <Icon name={icon} size={size} className="hover:text-pink-500" />
     </Link>
   );
 }
