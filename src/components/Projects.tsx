@@ -5,10 +5,8 @@ const projects = [
   {
     title: "Cesquant",
     url: "https://cequant.net",
-  },
-  {
-    title: "Cesquant",
-    url: "https://cequant.net",
+    createdAt: "Abril, 2021",
+    description: "Plataforma de cursos financieros.",
   },
 ];
 
