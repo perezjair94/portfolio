@@ -2,6 +2,19 @@
 [
   {
     "company": {
+      "name": " Geniorama",
+      "url": "https://www.linkedin.com/company/geniorama"
+    },
+    "location": "Bogotá, Distrito Capital",
+    "jobTitle": {
+      "name": "Front End Lead",
+      "startDate": "Septiembre, 2023",
+      "finsihDate": "Actualidad"
+    },
+    "description": "Desarrollo y mantenimiento de sitios web, diseño y programación de interfaces de usuario, integración de elementos gráficos y funcionales en sitios web, ptimización de sitios web para su rendimiento y velocidad."
+  },
+  {
+    "company": {
       "name": " Capital Investment",
       "url": "https://www.capitalinvestmenttm.com"
     },
