@@ -11,11 +11,12 @@ export default function Hero() {
           Javascript, React.js, Next.js, Web3.js
         </span>
         <p role="description">
-          Desarrollador con +4 años de experiencia desarrollando aplicaciones
-          Frontend Javascript en React.js, Next.js Framework, Redux.js,
-          TailwindCSS, SASS o Bootstrap, Blockchain con Ethers.js, Smart
-          Contracts, Solidity o Binance API y entornos virtuales con Three.js
-          integrados con redes blockchain.
+          Como desarrollador Frontend, he elaborado con éxito distintos sitios
+          web. Lideré equipos de desarrollo de manera efectiva, garantizando el
+          uso correcto de herramientas. Actualmente trabajo principalmente con
+          TypeScript, React, Next.js, y Tailwind CSS. Tengo más de 5 años de
+          experiencia donde he trabajado de forma remota para Startups, agencias
+          de marketing y fondos financieros.
         </p>
         <Link
           role="linkCurriculum"
