@@ -1,5 +1,17 @@
-
 [
+  {
+    "company": {
+      "name": "Soins Karismä",
+      "url": "https://www.linkedin.com/company/soins-karisma-inc"
+    },
+    "location": "Quebec, Canada",
+    "jobTitle": {
+      "name": "Front End",
+      "startDate": "Diciembre, 2023",
+      "finsihDate": "Actualidad"
+    },
+    "description": "Integracion API para una comunicación fluida entre el front-end, identificar y resolver cuellos de botella de rendimiento y vulnerabilidades de seguridad, colaborar en la planificación y ejecución de proyectos, apegándose a las mejores prácticas y estándares de codificación, participar en revisiones de código y brindar comentarios constructivos a los miembros del equipo."
+  },
   {
     "company": {
       "name": " Geniorama",
@@ -9,7 +21,7 @@
     "jobTitle": {
       "name": "Front End Lead",
       "startDate": "Septiembre, 2023",
-      "finsihDate": "Actualidad"
+      "finsihDate": "Diciembre, 2023"
     },
     "description": "Desarrollo y mantenimiento de sitios web, diseño y programación de interfaces de usuario, integración de elementos gráficos y funcionales en sitios web, ptimización de sitios web para su rendimiento y velocidad."
   },
@@ -20,7 +32,7 @@
     },
     "location": "Medellín, Antioquia",
     "jobTitle": {
-      "name": "Frontend Developer",
+      "name": "Frontend",
       "startDate": "Noviembre, 2022",
       "finsihDate": "Agosto, 2023"
     },
@@ -33,7 +45,7 @@
     },
     "location": "Medellín, Antioquia",
     "jobTitle": {
-      "name": "Frontend Developer",
+      "name": "Frontend",
       "startDate": "Octubre, 2021",
       "finsihDate": "Noviembre, 2021"
     },
@@ -46,7 +58,7 @@
     },
     "location": "Ontario, Canadá",
     "jobTitle": {
-      "name": "Frontend Developer",
+      "name": "Frontend",
       "startDate": "Septiembre, 2021",
       "finsihDate": "Octubre, 2022"
     },
@@ -59,7 +71,7 @@
     },
     "location": "Montería, Córdoba",
     "jobTitle": {
-      "name": "Frontend Developer",
+      "name": "Frontend",
       "startDate": "Agosto, 2019",
       "finsihDate": "Septiembre, 2021"
     },
