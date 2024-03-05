@@ -8,7 +8,7 @@ export default function Experience(props: Props) {
   return (
     <div className={styles.card} role="experience">
       <div className={styles["card-header"]}>
-        <Link href={props.company.url} className={styles.link}>
+        <Link href={props.company.url} className={styles.link} target="_blank">
           <h2 className={styles.title}>{props.company.name}</h2>
           <Icon name="ExternalLink" className="text-pink-500" />
         </Link>
